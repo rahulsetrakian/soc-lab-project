@@ -142,16 +142,7 @@ CakeFactory is a small-to-medium fictional enterprise designed for SOC simulatio
 
 ## 🎥 Demo
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/7dvcqdAyq1c" 
-  title="CakeFactory SOC Lab - Cybersecurity Enterprise Simulation"
-  style="position: absolute; top:0; left:0; width:100%; height:100%;" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  allowfullscreen>
-  </iframe>
-</div>
-
+[![Demo Video](./assets/cakefactory-banner.png)](./assets/cakefactory-banner.png)  
 
 👉 Click here to view the demo on youtube: [Click Here](https://youtu.be/7dvcqdAyq1c)
 
