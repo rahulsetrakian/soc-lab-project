@@ -1,12 +1,12 @@
 ![CakeFactory Banner](./assets/soc-lab.png)
 
-# 🧁 [CakeFactory SOC Lab - Cybersecurity Enterprise Simulation](https://youtu.be/7dvcqdAyq1c)
+# [CakeFactory SOC Lab - Cybersecurity Enterprise Simulation](https://youtu.be/7dvcqdAyq1c)
 
-🚨 Learn how a SOC analyst sets up real-world enterprise defenses — from AD and VLANs to threat detection using Wazuh — all in a simulated Cake-themed company!
+Learn how a SOC analyst sets up real-world enterprise defenses — from AD and VLANs to threat detection using Wazuh — all in a simulated Cake-themed company!
 
 ![Status](https://img.shields.io/badge/Project-Complete-blue) ![License](https://img.shields.io/badge/License-MIT-green) ![VMware](https://img.shields.io/badge/Platform-VMware-orange)
 
-## 📖 Table of Contents
+## Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
 - [Skills Practiced](#-skills-practiced)
@@ -23,26 +23,26 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This lab was created during my SOC Analyst training to gain real-world experience in blue team operations. It simulates a small enterprise network with realistic configurations, users, and services.
 
-> ✅ **Tools Used**: VMware, Windows Server 2022/2016, Debian, Wazuh, Wireshark, Packet Tracer  
+> **Tools Used**: VMware, Windows Server 2022/2016, Debian, Wazuh, Wireshark, Packet Tracer  
 
-> ✅ **Concepts Covered**: Networking, Active Directory, Group Policies, DNS/DHCP, VLANs, Threat Detection
+> **Concepts Covered**: Networking, Active Directory, Group Policies, DNS/DHCP, VLANs, Threat Detection
 
-## 🌟 Features
+## Features
 
-- 🏢 Enterprise-like AD domain setup (cakefactory.local)
-- 🌐 Multi-branch VLAN simulation (Chennai, HYD, Bangalore)
-- 🔐 Real-time log monitoring with Wazuh
-- 📡 Packet interception and threat analysis via Wireshark
-- 💼 Realistic user accounts and OU structure
-- 🧪 Tested on VMware with Windows + Linux systems
+- Enterprise-like AD domain setup (cakefactory.local)
+- Multi-branch VLAN simulation (Chennai, HYD, Bangalore)
+- Real-time log monitoring with Wazuh
+- Packet interception and threat analysis via Wireshark
+- Realistic user accounts and OU structure
+- Tested on VMware with Windows + Linux systems
 
 ---
 
-## 🧠 Skills Practiced
+## Skills Practiced
 
 - Core networking concepts (IP addressing, VLANs, routing, switching)
 - Deploying and configuring AD DS, DNS, DHCP
@@ -55,7 +55,7 @@ This lab was created during my SOC Analyst training to gain real-world experienc
 
 ---
 
-## 🗂️ Lab Structure
+## Lab Structure
 
 | Role                  | Hostname          | OS                  | Purpose                        |
 |-----------------------|-------------------|---------------------|--------------------------------|
@@ -68,7 +68,7 @@ This lab was created during my SOC Analyst training to gain real-world experienc
 
 ---
 
-## 👥 Organizational Users
+## Organizational Users
 
 | Name               | Username     | OU         | Role                        |
 |--------------------|--------------|------------|-----------------------------|
@@ -77,11 +77,11 @@ This lab was created during my SOC Analyst training to gain real-world experienc
 | Choco Gateaux      | `cgateaux`   | IT         | System Administrator        |
 | ...                | ...          | ...        | ...                         |
 
-👉 Full user & password table [here](./docs/users.md)
+Full user & password table [here](./docs/users.md)
 
 ---
 
-## 🌐 Network Design & VLAN Setup
+## Network Design & VLAN Setup
 
 A multi-branch setup with VLANs and router configs was implemented using Cisco Packet Tracer.
 
@@ -91,24 +91,24 @@ A multi-branch setup with VLANs and router configs was implemented using Cisco P
 | Hyderabad  | HYD      | 192.168.202.1     |
 | Bangalore  | BAN      | 192.168.203.1     |
 
-🛠 VLANs and switch configurations were simulated and tested for inter-branch communication.
+VLANs and switch configurations were simulated and tested for inter-branch communication.
 
-👉 View the Configurations: [configs/wan-setup](./configs/wan.pkt)
+View the Configurations: [configs/wan-setup](./configs/wan.pkt)
 
 ---
 
-## 🛡️ SIEM & Monitoring – Wazuh Setup
+## SIEM & Monitoring – Wazuh Setup
 
 - Wazuh Manager deployed on DC
 - Agents installed on all Windows + Linux machines
 - Log forwarding and integrity checks configured
 - Alerts tested with simulated failed logins and malware detection
 
-📷 View: [screenshots/wazuh-4.png](./screenshots/wazuh-4.png)
+View: [screenshots/wazuh-4.png](./screenshots/wazuh-4.png)
 
 ---
 
-## 🔍 Packet Capture & Threat Analysis
+## Packet Capture & Threat Analysis
 
 - Monitored DHCP, DNS, and SMB traffic
 - Analyzed ARP spoofing and ICMP traffic
@@ -116,7 +116,7 @@ A multi-branch setup with VLANs and router configs was implemented using Cisco P
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 [![AD Setup](./screenshots/AD-2.png)](./screenshots/AD-2.png)  
 *Active Directory with organizational units and users*
@@ -130,17 +130,17 @@ A multi-branch setup with VLANs and router configs was implemented using Cisco P
 [![Wireshark](./screenshots/Wireshark.png)](./screenshots/Wireshark.png)  
 *Captured packet breakdown and event correlation*
 
-👉 See all the screenshots: [here](./docs/screenshots.md)
+See all the screenshots: [here](./docs/screenshots.md)
 
 ---
 
-## 🧁 About CakeFactory
+## About CakeFactory
 
 CakeFactory is a small-to-medium fictional enterprise designed for SOC simulations Inspired by themed names, it helps make complex systems easier to manage and demonstrate.
 
 ---
 
-## 🎥 Demo
+## Demo
 
 [![Demo Video](./assets/cakefactory-banner.png)](./assets/cakefactory-banner.png)  
 
