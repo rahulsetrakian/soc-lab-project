@@ -144,20 +144,20 @@ CakeFactory is a small-to-medium fictional enterprise designed for SOC simulatio
 
 [![Demo Video](./assets/cakefactory-banner.png)](./assets/cakefactory-banner.png)  
 
-👉 Click here to view the demo on youtube: [Click Here](https://youtu.be/7dvcqdAyq1c)
+Click here to view the demo on youtube: [Click Here](https://youtu.be/7dvcqdAyq1c)
 
 ---
 
-## 🤝 Connect With Me
+## Connect With Me
 
-**Rahul Setrakian**  
-🔗 Linkedin: [rahulsetrakian](https://www.linkedin.com/in/rahulsetrakian)  
+**PurpleShonen**  
+🔗 Linkedin: [PurpleShonen](https://www.linkedin.com/in/PurpleShonen)  
 📫 Email: rahul.infosec@proton.me  
-📦 GitHub: [github.com/rahulsetrakian](https://github.com/rahulsetrakian)
+📦 GitHub: [github.com/PurpleShonen](https://github.com/PurpleShonen)
 
 ---
 
-## 📜 License
+## License
 
 This lab is for educational purposes only. Feel free to fork and learn from it.
 
